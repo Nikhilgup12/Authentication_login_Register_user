@@ -1,0 +1,20 @@
+POST http://localhost:3000/register
+Content-type:application/json 
+
+{
+  "username": "adam_richardd",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroit"
+} 
+
+### 
+
+POST https://nikhilloginregister.onrender.com/login
+Content-type:application/json 
+
+{
+  "username": "adam_richardd",
+  "password": "richard_567"
+}
